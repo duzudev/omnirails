@@ -8,6 +8,9 @@ Rails.application.configure do
   # since you don't have to restart the web server when you make code changes.
   config.enable_reloading = true
 
+  # config/environments/development.rb
+  config.sass.inline_source_maps = true
+
   # Do not eager load code on boot.
   config.eager_load = false
 
